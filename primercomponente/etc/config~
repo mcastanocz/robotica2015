@@ -1,0 +1,28 @@
+CommonBehavior.Endpoints=tcp -p 1
+
+
+<<<<<<< HEAD
+# Endpoints for subscriptions
+AprilTagsTopic.Endpoints=tcp -p 0
+
+
+=======
+>>>>>>> 55200e4b027a25937809b85e37f2d1c871bf01dc
+# Proxies for required interfaces
+DifferentialRobotProxy = differentialrobot:tcp -h localhost -p 0
+LaserProxy = laser:tcp -h localhost -p 0
+
+
+<<<<<<< HEAD
+# This property is used by the clients to connect to IceStorm.
+TopicManager.Proxy=IceStorm/TopicManager:default -p 9999
+=======
+>>>>>>> 55200e4b027a25937809b85e37f2d1c871bf01dc
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+Ice.ACM.Client=10
+Ice.ACM.Server=10
+
+

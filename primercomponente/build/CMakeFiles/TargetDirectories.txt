@@ -1,0 +1,1 @@
+/home/byron/robotica2015-master/primercomponente/build/src/CMakeFiles/primercomponente.dir

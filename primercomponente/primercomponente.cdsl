@@ -1,0 +1,23 @@
+import "/robocomp/interfaces/IDSLs/DifferentialRobot.idsl";
+import "/robocomp/interfaces/IDSLs/Laser.idsl";
+<<<<<<< HEAD
+import "/robocomp/interfaces/IDSLs/AprilTags.idsl";
+=======
+>>>>>>> 55200e4b027a25937809b85e37f2d1c871bf01dc
+
+Component primercomponente
+{
+	Communications
+	{
+	
+		requires DifferentialRobot, Laser;
+<<<<<<< HEAD
+		subscribesTo AprilTags;
+=======
+		
+>>>>>>> 55200e4b027a25937809b85e37f2d1c871bf01dc
+	};
+	language Cpp;
+	gui Qt(QWidget);
+};
+
